@@ -14,7 +14,7 @@ app.use("/user", UserRoute)
 app.use("/orders",  orderRoute)
 
 app.listen(8080, async()=>{
-    await seq.sync()
+    // await seq.sync()
     console.log("Server Connected");
 })
 
