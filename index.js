@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 app.get("/hello", (req,res)=>{
-    res.send("Welcome To The Server 2")
+    res.send("Welcome To The Server 1")
 })
 
 // app.use("/user", UserRoute)
