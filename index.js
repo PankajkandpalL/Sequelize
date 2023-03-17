@@ -13,7 +13,7 @@ app.get("/", (req,res)=>{
 app.use("/user", UserRoute)
 app.use("/orders",  orderRoute)
 
-app.listen(8080, async()=>{
+app.listen(80, async()=>{
     // await seq.sync()
     console.log("Server Connected");
 })
