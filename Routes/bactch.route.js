@@ -1,13 +1,13 @@
 const express = require("express");
-const studentRoute = express.Router()
+const batchRoute = express.Router()
 const { authMiddleware } = require("../Middleware/auth");
 const { Order } = require("../Model/Orders.model");
 const { Timeline } = require("../Model/Batch.model");
 const Users = require("../Model/Student.model");
 
-studentRoute.get()
-studentRoute.post()
-studentRoute.delete()
-studentRoute.post()
+batchRoute.get()
+batchRoute.post()
+batchRoute.delete()
+batchRoute.post()
 
-module.exports = { studentRoute }
+module.exports = { batchRoute }
